@@ -7,7 +7,6 @@ import Profile from "../assets/profile.png";
 import Cart from "../assets/cart.png";
 import Messages from "../assets/messages.png";
 import Orders from "../assets/orders.png";
-import MiniHamburger from "../assets/mini-hamburger.png";
 import headerStyles from "../css/header.module.css";
 
 const Header = () => {
@@ -27,11 +26,7 @@ const Header = () => {
         <form action="#" method="get" className={headerStyles.searchBar}>
           <div className={headerStyles.searchInput}>
             <input type="text" id="searchBar" className={headerStyles.input} />
-            <img
-              src={Camera}
-              alt="Search by image"
-              className={headerStyles.icon}
-            />
+            <img src={Camera} alt="Search" className={headerStyles.icon} />
           </div>
 
           <div className={headerStyles.searchSubmit}>
