@@ -82,7 +82,7 @@ const Homepage = () => {
               </div>
               <div className={homeStyles.others}>
                 <p>Sign up to enjoy exciting Buyers Club benefits</p>
-                <a href="#">
+                <a href="/">
                   <input
                     type="button"
                     value="Join for free"
@@ -90,7 +90,7 @@ const Homepage = () => {
                     id={homeStyles.mainColor}
                   />
                 </a>
-                <a href="#">
+                <a href="/">
                   <input
                     type="button"
                     value="Sign in"
